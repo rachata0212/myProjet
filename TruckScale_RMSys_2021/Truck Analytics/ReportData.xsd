@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportData" targetNamespace="http://tempuri.org/ReportData.xsd" xmlns:mstns="http://tempuri.org/ReportData.xsd" xmlns="http://tempuri.org/ReportData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SapthipNewDBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SapthipNewDBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Truck_Analytics.Properties.Settings.GlobalReference.Default.SapthipNewDBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportData" msprop:Generator_UserDSName="ReportData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QRCode" msprop:Generator_TableClassName="QRCodeDataTable" msprop:Generator_TableVarName="tableQRCode" msprop:Generator_RowChangedName="QRCodeRowChanged" msprop:Generator_TablePropName="QRCode" msprop:Generator_RowDeletingName="QRCodeRowDeleting" msprop:Generator_RowChangingName="QRCodeRowChanging" msprop:Generator_RowEvHandlerName="QRCodeRowChangeEventHandler" msprop:Generator_RowDeletedName="QRCodeRowDeleted" msprop:Generator_RowClassName="QRCodeRow" msprop:Generator_UserTableName="QRCode" msprop:Generator_RowEvArgName="QRCodeRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Time" msprop:Generator_ColumnVarNameInTable="columnTime" msprop:Generator_ColumnPropNameInRow="Time" msprop:Generator_ColumnPropNameInTable="TimeColumn" msprop:Generator_UserColumnName="Time" type="xs:string" minOccurs="0" />
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="QueueNo" msprop:Generator_ColumnVarNameInTable="columnQueueNo" msprop:Generator_ColumnPropNameInRow="QueueNo" msprop:Generator_ColumnPropNameInTable="QueueNoColumn" msprop:Generator_UserColumnName="QueueNo" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductName" msprop:Generator_ColumnVarNameInTable="columnProductName" msprop:Generator_ColumnPropNameInRow="ProductName" msprop:Generator_ColumnPropNameInTable="ProductNameColumn" msprop:Generator_UserColumnName="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="SimCode2_1" msprop:Generator_ColumnVarNameInTable="columnSimCode2_1" msprop:Generator_ColumnPropNameInRow="SimCode2_1" msprop:Generator_ColumnPropNameInTable="SimCode2_1Column" msprop:Generator_UserColumnName="SimCode2_1" type="xs:string" minOccurs="0" />
+              <xs:element name="SimCode2_2" msprop:Generator_ColumnVarNameInTable="columnSimCode2_2" msprop:Generator_ColumnPropNameInRow="SimCode2_2" msprop:Generator_ColumnPropNameInTable="SimCode2_2Column" msprop:Generator_UserColumnName="SimCode2_2" type="xs:string" minOccurs="0" />
+              <xs:element name="TicketCodeIn" msprop:Generator_ColumnVarNameInTable="columnTicketCodeIn" msprop:Generator_ColumnPropNameInRow="TicketCodeIn" msprop:Generator_ColumnPropNameInTable="TicketCodeInColumn" msprop:Generator_UserColumnName="TicketCodeIn" type="xs:string" minOccurs="0" />
+              <xs:element name="ImageTicket" msprop:Generator_ColumnVarNameInTable="columnImageTicket" msprop:Generator_ColumnPropNameInRow="ImageTicket" msprop:Generator_ColumnPropNameInTable="ImageTicketColumn" msprop:Generator_UserColumnName="ImageTicket" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ImageSim1_1" msprop:Generator_ColumnVarNameInTable="columnImageSim1_1" msprop:Generator_ColumnPropNameInRow="ImageSim1_1" msprop:Generator_ColumnPropNameInTable="ImageSim1_1Column" msprop:Generator_UserColumnName="ImageSim1_1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ImageSim1_2" msprop:Generator_ColumnVarNameInTable="columnImageSim1_2" msprop:Generator_ColumnPropNameInRow="ImageSim1_2" msprop:Generator_ColumnPropNameInTable="ImageSim1_2Column" msprop:Generator_UserColumnName="ImageSim1_2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ImageSim2_1" msprop:Generator_ColumnVarNameInTable="columnImageSim2_1" msprop:Generator_ColumnPropNameInRow="ImageSim2_1" msprop:Generator_ColumnPropNameInTable="ImageSim2_1Column" msprop:Generator_UserColumnName="ImageSim2_1" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="ImageSim2_2" msprop:Generator_ColumnVarNameInTable="columnImageSim2_2" msprop:Generator_ColumnPropNameInRow="ImageSim2_2" msprop:Generator_ColumnPropNameInTable="ImageSim2_2Column" msprop:Generator_UserColumnName="ImageSim2_2" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="SimCode1_1" msprop:Generator_ColumnVarNameInTable="columnSimCode1_1" msprop:Generator_ColumnPropNameInRow="SimCode1_1" msprop:Generator_ColumnPropNameInTable="SimCode1_1Column" msprop:Generator_UserColumnName="SimCode1_1" type="xs:string" minOccurs="0" />
+              <xs:element name="SimCode1_2" msprop:Generator_ColumnVarNameInTable="columnSimCode1_2" msprop:Generator_ColumnPropNameInRow="SimCode1_2" msprop:Generator_ColumnPropNameInTable="SimCode1_2Column" msprop:Generator_UserColumnName="SimCode1_2" type="xs:string" minOccurs="0" />
+              <xs:element name="TruckTypeName" msprop:Generator_ColumnVarNameInTable="columnTruckTypeName" msprop:Generator_ColumnPropNameInRow="TruckTypeName" msprop:Generator_ColumnPropNameInTable="TruckTypeNameColumn" msprop:Generator_UserColumnName="TruckTypeName" type="xs:string" minOccurs="0" />
+              <xs:element name="Rmk1" msprop:Generator_ColumnVarNameInTable="columnRmk1" msprop:Generator_ColumnPropNameInRow="Rmk1" msprop:Generator_ColumnPropNameInTable="Rmk1Column" msprop:Generator_UserColumnName="Rmk1" type="xs:string" minOccurs="0" />
+              <xs:element name="Rmk2" msprop:Generator_ColumnVarNameInTable="columnRmk2" msprop:Generator_ColumnPropNameInRow="Rmk2" msprop:Generator_ColumnPropNameInTable="Rmk2Column" msprop:Generator_UserColumnName="Rmk2" type="xs:string" minOccurs="0" />
+              <xs:element name="Rmk3" msprop:Generator_ColumnVarNameInTable="columnRmk3" msprop:Generator_ColumnPropNameInRow="Rmk3" msprop:Generator_ColumnPropNameInTable="Rmk3Column" msprop:Generator_UserColumnName="Rmk3" type="xs:string" minOccurs="0" />
+              <xs:element name="Rmk4" msprop:Generator_ColumnVarNameInTable="columnRmk4" msprop:Generator_ColumnPropNameInRow="Rmk4" msprop:Generator_ColumnPropNameInTable="Rmk4Column" msprop:Generator_UserColumnName="Rmk4" type="xs:string" minOccurs="0" />
+              <xs:element name="Rmk5" msprop:Generator_ColumnVarNameInTable="columnRmk5" msprop:Generator_ColumnPropNameInRow="Rmk5" msprop:Generator_ColumnPropNameInTable="Rmk5Column" msprop:Generator_UserColumnName="Rmk5" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
