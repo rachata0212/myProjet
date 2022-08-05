@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" type="xs:string" minOccurs="0" />
+              <xs:element name="W_Net" type="xs:string" minOccurs="0" />
+              <xs:element name="W_StarchIN" type="xs:string" minOccurs="0" />
+              <xs:element name="Max_StarchIN" type="xs:string" minOccurs="0" />
+              <xs:element name="Min_StarchIN" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_StarchPur" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_PricePur" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_PriceStarch" type="xs:string" minOccurs="0" />
+              <xs:element name="W_Starch28" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_Starch28" type="xs:string" minOccurs="0" />
+              <xs:element name="W_Starch23" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_Starch23" type="xs:string" minOccurs="0" />
+              <xs:element name="W_Visual" type="xs:string" minOccurs="0" />
+              <xs:element name="AVG_Visual" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

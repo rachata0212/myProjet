@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ProductID" type="xs:string" minOccurs="0" />
+              <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+              <xs:element name="Type" type="xs:string" minOccurs="0" />
+              <xs:element name="JAN" type="xs:string" minOccurs="0" />
+              <xs:element name="FEB" type="xs:string" minOccurs="0" />
+              <xs:element name="MAR" type="xs:string" minOccurs="0" />
+              <xs:element name="ARP" type="xs:string" minOccurs="0" />
+              <xs:element name="MAY" type="xs:string" minOccurs="0" />
+              <xs:element name="JUN" type="xs:string" minOccurs="0" />
+              <xs:element name="JULY" type="xs:string" minOccurs="0" />
+              <xs:element name="AUG" type="xs:string" minOccurs="0" />
+              <xs:element name="SEP" type="xs:string" minOccurs="0" />
+              <xs:element name="OCT" type="xs:string" minOccurs="0" />
+              <xs:element name="NOV" type="xs:string" minOccurs="0" />
+              <xs:element name="DEC" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
