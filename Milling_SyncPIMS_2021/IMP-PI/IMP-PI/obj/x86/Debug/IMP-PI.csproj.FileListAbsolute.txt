@@ -1,0 +1,12 @@
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\bin\x86\Debug\IMP-PI.exe.config
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\bin\x86\Debug\IMP-PI.exe
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\bin\x86\Debug\IMP-PI.pdb
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP_PI.Form1.resources
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP_PI.Form2.resources
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP_PI.Properties.Resources.resources
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP-PI.csproj.GenerateResource.cache
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP-PI.csproj.CoreCompileInputs.cache
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP-PI.exe
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP-PI.pdb
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP-PI.csprojAssemblyReference.cache
+D:\Job IT\Project 2020\IMP-PI\IMP-PI\IMP-PI\obj\x86\Debug\IMP_PI.Form3.resources
