@@ -1,0 +1,12 @@
+C:\Users\rachata\Desktop\LTTS\LTTS\LTTS\bin\LTTS.dll
+C:\Users\rachata\Desktop\LTTS\LTTS\LTTS\bin\LTTS.pdb
+C:\Users\rachata\Desktop\LTTS\LTTS\LTTS\obj\Debug\LTTS.dll
+C:\Users\rachata\Desktop\LTTS\LTTS\LTTS\obj\Debug\LTTS.pdb
+C:\Users\rachata\Desktop\LTTS\LTTS\LTTS\obj\Debug\LTTS.csprojResolveAssemblyReference.cache
+F:\Job\AllProject\LTTS\LTTS\LTTS\bin\LTTS.dll.config
+F:\Job\AllProject\LTTS\LTTS\LTTS\bin\LTTS.dll
+F:\Job\AllProject\LTTS\LTTS\LTTS\bin\LTTS.pdb
+F:\Job\AllProject\LTTS\LTTS\LTTS\obj\Debug\LTTS.csprojAssemblyReference.cache
+F:\Job\AllProject\LTTS\LTTS\LTTS\obj\Debug\LTTS.csproj.CoreCompileInputs.cache
+F:\Job\AllProject\LTTS\LTTS\LTTS\obj\Debug\LTTS.dll
+F:\Job\AllProject\LTTS\LTTS\LTTS\obj\Debug\LTTS.pdb
