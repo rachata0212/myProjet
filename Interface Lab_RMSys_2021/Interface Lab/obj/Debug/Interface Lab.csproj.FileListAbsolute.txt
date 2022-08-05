@@ -1,0 +1,13 @@
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\bin\Debug\Interface Lab.exe.config
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\bin\Debug\Interface Lab.exe
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\bin\Debug\Interface Lab.pdb
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface_Lab.F_Increditor.resources
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface_Lab.F_Monitor.resources
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface_Lab.F_Setting.resources
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface_Lab.Properties.Resources.resources
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface Lab.csproj.GenerateResource.cache
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface Lab.csproj.CoreCompileInputs.cache
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface Lab.exe
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface Lab.pdb
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface_Lab.F_Login.resources
+D:\Job IT\Project 2020\Interface Lab\Interface Lab\obj\Debug\Interface Lab.csprojAssemblyReference.cache
