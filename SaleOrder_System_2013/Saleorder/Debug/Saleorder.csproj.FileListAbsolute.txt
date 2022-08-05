@@ -1,0 +1,332 @@
+D:\Project\New Saleorder\Saleorder\obj\Debug\ResolveAssemblyReference.cache
+D:\Project\New Saleorder\Saleorder\obj\Debug\Interop.FOXITREADEROCXLib.dll
+D:\Project\New Saleorder\Saleorder\obj\Debug\AxInterop.FOXITREADEROCXLib.dll
+D:\Project\New Saleorder\Saleorder\obj\Debug\Saleorder.csproj.ResolveComReference.cache
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmconfirmpwd.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmAutokey.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmchangdata.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmchangpwd.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmconfirmpwdchagedata.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmcostsetting.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmcosttran.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmInformation.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmmap.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmmergorder.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmMstatus.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmOrderSelect.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmpayjob.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmpermisionapprovequa.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmphysicalproduct.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmPurchasePay.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmPurpaysetting.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmqickview.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmrateoil.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmrateoilsave.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmrateoilsetting.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmreportadvance.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.w.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmapproveQua.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmapproveHistorycus.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmcommand.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmbuttonControl.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmcar.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmchangdatacustomer.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmchangdate.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmchangprice.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmcompany.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmconnection.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmdraftquatation.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmhiscustomer.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmInsertweigth.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmmain.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmprinorsaveQuatation.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmproduct.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmPurchase.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmquatation.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmreporttruck.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmresetpwdbyemail.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmSaleOrder.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmselectCarSplite.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmselectjobtrack.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmselectOption.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmselect_printtruck.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmSelectComcanclejob.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmSelectMoveJob.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmselectproduct.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmserch.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmStockadd.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmtime.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmTransport.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmtruckin.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmtruckout.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmlogin.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmTruckscale.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmtypepay.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmemployee.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmtypeproduct.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Frmviewreport.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FrmWeigthbeforetruckin.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.FromInsertdate.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.Properties.Resources.resources
+D:\Project\New Saleorder\Saleorder\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Project\New Saleorder\Saleorder\obj\Debug\GenerateResource-ResGen.read.4.tlog
+D:\Project\New Saleorder\Saleorder\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Project\New Saleorder\Saleorder\bin\Debug\SaleOrder.exe.config
+D:\Project\New Saleorder\Saleorder\bin\Debug\SaleOrder.pdb
+D:\Project\New Saleorder\Saleorder\bin\Debug\Interop.FOXITREADEROCXLib.dll
+D:\Project\New Saleorder\Saleorder\bin\Debug\AxInterop.FOXITREADEROCXLib.dll
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.exe
+D:\Project\New Saleorder\Saleorder\obj\Debug\SaleOrder.pdb
+D:\Project\New Saleorder\Saleorder\bin\Debug\SaleOrder.exe
+C:\Users\rachata\Desktop\Private Job\SaleOrder\bin\Debug\SaleOrder.exe.config
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\Interop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\AxInterop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.csproj.ResolveComReference.cache
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.exe
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.pdb
+C:\Users\rachata\Desktop\Private Job\SaleOrder\bin\Debug\SaleOrder.pdb
+C:\Users\rachata\Desktop\Private Job\SaleOrder\bin\Debug\Interop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\SaleOrder\bin\Debug\AxInterop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.csprojResolveAssemblyReference.cache
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmconfirmpwd.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmAutokey.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmchangdata.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmchangpwd.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmconfirmpwdchagedata.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmcostsetting.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmcosttran.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmInformation.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmmap.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmmergorder.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmMstatus.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmOrderSelect.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmpayjob.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmpermisionapprovequa.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmphysicalproduct.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmPurchasePay.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmPurpaysetting.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmqickview.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmrateoil.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmrateoilsave.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmrateoilsetting.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmreportadvance.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.w.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmapproveQua.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmapproveHistorycus.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmcommand.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmbuttonControl.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmcar.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmchangdatacustomer.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmchangdate.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmchangprice.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmcompany.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmconnection.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmdraftquatation.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmhiscustomer.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmInsertweigth.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmmain.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmprinorsaveQuatation.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmproduct.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmPurchase.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmquatation.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmreporttruck.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmresetpwdbyemail.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmSaleOrder.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmselectCarSplite.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmselectjobtrack.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmselectOption.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmselect_printtruck.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmSelectComcanclejob.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmSelectMoveJob.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmselectproduct.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmserch.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmStockadd.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmtime.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmTransport.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmtruckin.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmtruckout.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmlogin.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmTruckscale.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmtypepay.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmemployee.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmtypeproduct.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Frmviewreport.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FrmWeigthbeforetruckin.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.FromInsertdate.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.Properties.Resources.resources
+C:\Users\rachata\Desktop\Private Job\SaleOrder\obj\Debug\SaleOrder.csproj.GenerateResource.Cache
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\bin\Debug\SaleOrder.exe.config
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\bin\Debug\SaleOrder.pdb
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\bin\Debug\Interop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\bin\Debug\AxInterop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\Interop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\AxInterop.FOXITREADEROCXLib.dll
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.ResolveComReference.cache
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmconfirmpwd.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmAutokey.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangdata.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangpwd.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmconfirmpwdchagedata.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcostsetting.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcosttran.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmInformation.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmmap.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmmergorder.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmMstatus.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmOrderSelect.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmpayjob.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmpermisionapprovequa.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmphysicalproduct.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmPurchasePay.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmPurpaysetting.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmqickview.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmrateoil.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmrateoilsave.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmrateoilsetting.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmreportadvance.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.w.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmapproveQua.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmapproveHistorycus.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcommand.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmbuttonControl.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcar.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangdatacustomer.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangdate.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangprice.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcompany.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmconnection.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmdraftquatation.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmhiscustomer.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmInsertweigth.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmmain.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmprinorsaveQuatation.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmproduct.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmPurchase.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmquatation.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmreporttruck.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmresetpwdbyemail.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmSaleOrder.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmselectCarSplite.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmselectjobtrack.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmselectOption.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmselect_printtruck.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmSelectComcanclejob.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmSelectMoveJob.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmselectproduct.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmserch.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmStockadd.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtime.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmTransport.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtruckin.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtruckout.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmlogin.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmTruckscale.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtypepay.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmemployee.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtypeproduct.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmviewreport.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmWeigthbeforetruckin.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FromInsertdate.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Properties.Resources.resources
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.GenerateResource.Cache
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.exe
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.pdb
+C:\Users\rachata\Desktop\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csprojResolveAssemblyReference.cache
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\SaleOrder.exe.config
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.ResolveComReference.cache
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.exe
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.pdb
+G:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\SaleOrder.exe.config
+G:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.ResolveComReference.cache
+G:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.exe
+G:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.pdb
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\SaleOrder.pdb
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.CrystalReports.Engine.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportSource.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.Shared.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.Windows.Forms.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\FlashControlV71.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\stdole.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\bin\Debug\ShockwaveFlashObjects.dll
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csprojAssemblyReference.cache
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmconfirmpwd.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmAutokey.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangdata.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangpwd.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmconfirmpwdchagedata.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcostsetting.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcosttran.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmInformation.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmmap.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmmergorder.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmMstatus.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmOrderSelect.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmpayjob.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmpermisionapprovequa.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmphysicalproduct.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmPurchasePay.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmPurpaysetting.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmqickview.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmrateoil.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmrateoilsave.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmrateoilsetting.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmreportadvance.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.w.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmapproveQua.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmapproveHistorycus.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcommand.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmbuttonControl.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcar.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangdatacustomer.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangdate.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmchangprice.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmcompany.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmconnection.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmdraftquatation.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmhiscustomer.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmInsertweigth.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmmain.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmprinorsaveQuatation.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmproduct.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmPurchase.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmquatation.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmreporttruck.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmresetpwdbyemail.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmSaleOrder.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmselectCarSplite.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmselectjobtrack.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmselectOption.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmselect_printtruck.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmSelectComcanclejob.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmSelectMoveJob.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmselectproduct.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmserch.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmStockadd.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtime.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmTransport.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtruckin.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtruckout.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmlogin.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmTruckscale.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtypepay.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmemployee.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmtypeproduct.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Frmviewreport.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FrmWeigthbeforetruckin.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.FromInsertdate.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.Properties.Resources.resources
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.GenerateResource.cache
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.CoreCompileInputs.cache
+F:\Job\Private Job\Sale Order HB\SaleOrder\obj\Debug\SaleOrder.csproj.CopyComplete
