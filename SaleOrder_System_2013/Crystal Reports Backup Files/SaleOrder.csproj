@@ -1,0 +1,1518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1FE8ABB-4A13-4207-88A8-FFB4C429C410}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SaleOrder</RootNamespace>
+    <AssemblyName>SaleOrder</AssemblyName>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SignManifests>false</SignManifests>
+    <SignAssembly>false</SignAssembly>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <StartupObject>SaleOrder.Program</StartupObject>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>15</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.Compatibility" />
+    <Reference Include="SaleOrder, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <ExecutableExtension>.exe</ExecutableExtension>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassBackworker.cs" />
+    <Compile Include="Crpphysicalsale.cs">
+      <DependentUpon>Crpphysicalsale.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crpphysicalpur.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crpphysicalpur.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurchaseordertran.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppurchaseordertran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppursumweigth.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppursumweigth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpratedistance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpratedistance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurtosaletruckpass.cs">
+      <DependentUpon>crppurtosaletruckpass.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpAdpurchase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpAdpurchase.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpproductstock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpproductstock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpratetruck.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpratetruck.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpratetruckemp.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpratetruckemp.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpsale-chidcancle.cs">
+      <DependentUpon>crpsale-chidcancle.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpsale-chidptos.cs">
+      <DependentUpon>crpsale-chidptos.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpsale-chidmain.cs">
+      <DependentUpon>crpsale-chidmain.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crppur-chidcancle.cs">
+      <DependentUpon>crppur-chidcancle.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crppurchasedesignsuccess.cs">
+      <DependentUpon>crppurchasedesignsuccess.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crppurchasedesign.cs">
+      <DependentUpon>crppurchasedesign.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpbranchtruckoutbyweekGraph.cs">
+      <DependentUpon>crpbranchtruckoutbyweekGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpbranchtruckoutbymontGraph.cs">
+      <DependentUpon>crpbranchtruckoutbymontGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpbranchtruckoutbydayGraph.cs">
+      <DependentUpon>crpbranchtruckoutbydayGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpbranchtruckinbydayGraph.cs">
+      <DependentUpon>crpbranchtruckinbydayGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpsale-chidbtos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpsale-chidbtos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpsalebydayGraph.cs">
+      <DependentUpon>crpsalebydayGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crppurbydayGraph.cs">
+      <DependentUpon>crppurbydayGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpbranchtruckinbyweekGraph.cs">
+      <DependentUpon>crpbranchtruckinbyweekGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpbranchtruckinbymontGraph.cs">
+      <DependentUpon>crpbranchtruckinbymontGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpsalebymontGraph.cs">
+      <DependentUpon>crpsalebymontGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crpsalebyweekGraph.cs">
+      <DependentUpon>crpsalebyweekGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crppurbymontGraph.cs">
+      <DependentUpon>crppurbymontGraph.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crpbranchgtruckinsortbyserail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crpbranchgtruckinsortbyserail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crpbranchgtruckoutsortbyserail.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crpbranchgtruckoutsortbyserail.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurchase.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppurchase.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurtosaletrucknopass.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppurtosaletrucknopass.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurbyweekGraph.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppurbyweekGraph.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurtosalefilbycompur.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppurtosalefilbycompur.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppurtosalefilbycomsale.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppurtosalefilbycomsale.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpsale.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpsale.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpstock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpstock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpstockday.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpstockday.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crpstocksumday.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crpstocksumday.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtruckouttocusbf.cs">
+      <DependentUpon>crtruckouttocusbf.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crpbranchtruckout.cs">
+      <DependentUpon>Crpbranchtruckout.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Crpbranchtruckin.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Crpbranchtruckin.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crvquatation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crvquatation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crprateoil.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crprateoil.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppur-chidptob.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppur-chidptob.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppur-chidptos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppur-chidptos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crppur-chidmain.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crppur-chidmain.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dtquatationsys.cs">
+      <DependentUpon>dtquatationsys.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dtquatationsys.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtquatationsys.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DTrat.cs">
+      <DependentUpon>DTrat.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DTrat.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTrat.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Frmconfirmpwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmconfirmpwd.Designer.cs">
+      <DependentUpon>Frmconfirmpwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAutokey.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAutokey.Designer.cs">
+      <DependentUpon>FrmAutokey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmchangdata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmchangdata.Designer.cs">
+      <DependentUpon>Frmchangdata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmchangpwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmchangpwd.Designer.cs">
+      <DependentUpon>Frmchangpwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmconfirmpwdchagedata.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmconfirmpwdchagedata.Designer.cs">
+      <DependentUpon>Frmconfirmpwdchagedata.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmcostsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmcostsetting.Designer.cs">
+      <DependentUpon>Frmcostsetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmcostTran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmcostTran.Designer.cs">
+      <DependentUpon>FrmcostTran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInformation.Designer.cs">
+      <DependentUpon>FrmInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmmap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmmap.Designer.cs">
+      <DependentUpon>Frmmap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmmergorder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmmergorder.Designer.cs">
+      <DependentUpon>Frmmergorder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMstatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMstatus.Designer.cs">
+      <DependentUpon>FrmMstatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrderSelect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrderSelect.Designer.cs">
+      <DependentUpon>FrmOrderSelect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmpayjob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmpayjob.Designer.cs">
+      <DependentUpon>Frmpayjob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmpermisionapprovequa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmpermisionapprovequa.Designer.cs">
+      <DependentUpon>Frmpermisionapprovequa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmphysicalproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmphysicalproduct.Designer.cs">
+      <DependentUpon>Frmphysicalproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPurchasePay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPurchasePay.Designer.cs">
+      <DependentUpon>FrmPurchasePay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPurpaysetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPurpaysetting.Designer.cs">
+      <DependentUpon>FrmPurpaysetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmqickview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmqickview.Designer.cs">
+      <DependentUpon>Frmqickview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmrateoil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmrateoil.Designer.cs">
+      <DependentUpon>Frmrateoil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmrateoilsave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmrateoilsave.Designer.cs">
+      <DependentUpon>Frmrateoilsave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmrateoilsetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmrateoilsetting.Designer.cs">
+      <DependentUpon>Frmrateoilsetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmreportadvance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmreportadvance.Designer.cs">
+      <DependentUpon>Frmreportadvance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportAll.Designer.cs">
+      <DependentUpon>FrmReportAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmapproveQua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmapproveQua.Designer.cs">
+      <DependentUpon>FrmapproveQua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmapproveHistorycus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmapproveHistorycus.Designer.cs">
+      <DependentUpon>FrmapproveHistorycus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crtuckoutfilbybranch.cs">
+      <DependentUpon>crtuckoutfilbybranch.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtuckoutfilbycom.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtuckoutfilbycom.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtuckinfilbybrach.cs">
+      <DependentUpon>crtuckinfilbybrach.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtruckouttocusaf.cs">
+      <DependentUpon>crtruckouttocusaf.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtpurfilbycompur.cs">
+      <DependentUpon>crtpurfilbycompur.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtpurtosalefilbybranch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtpurtosalefilbybranch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtsale.cs">
+      <DependentUpon>crtsale.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crtruckout.cs">
+      <DependentUpon>crtruckout.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="crvpurcancle.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crvpurcancle.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crvsalecancle.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crvsalecancle.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtpurfilbybranch.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtpurfilbybranch.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtpurtosale.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtpurtosale.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtpurtosalefilbycompur.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtpurtosalefilbycompur.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="crtuckinfilbycom.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtuckinfilbycom.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dtssaleorder.cs">
+      <DependentUpon>dtssaleorder.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dtssaleorder.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dtssaleorder.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Frmcommand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmcommand.Designer.cs">
+      <DependentUpon>Frmcommand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmbuttonControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmbuttonControl.Designer.cs">
+      <DependentUpon>FrmbuttonControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmcar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmcar.Designer.cs">
+      <DependentUpon>Frmcar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmchangdatacustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmchangdatacustomer.Designer.cs">
+      <DependentUpon>Frmchangdatacustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmchangdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmchangdate.Designer.cs">
+      <DependentUpon>Frmchangdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmchangprice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmchangprice.Designer.cs">
+      <DependentUpon>Frmchangprice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmcompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmcompany.Designer.cs">
+      <DependentUpon>Frmcompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmconnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmconnection.Designer.cs">
+      <DependentUpon>Frmconnection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmdraftquatation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmdraftquatation.Designer.cs">
+      <DependentUpon>Frmdraftquatation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmhiscustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmhiscustomer.Designer.cs">
+      <DependentUpon>Frmhiscustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInsertweigth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInsertweigth.Designer.cs">
+      <DependentUpon>FrmInsertweigth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmmain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmmain.Designer.cs">
+      <DependentUpon>Frmmain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmprinorsaveQuatation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmprinorsaveQuatation.Designer.cs">
+      <DependentUpon>FrmprinorsaveQuatation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmproduct.Designer.cs">
+      <DependentUpon>Frmproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPurchase.Designer.cs">
+      <DependentUpon>FrmPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmquatation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmquatation.Designer.cs">
+      <DependentUpon>Frmquatation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmreporttruck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmreporttruck.Designer.cs">
+      <DependentUpon>Frmreporttruck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmresetpwdbyemail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmresetpwdbyemail.Designer.cs">
+      <DependentUpon>Frmresetpwdbyemail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSaleOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSaleOrder.Designer.cs">
+      <DependentUpon>FrmSaleOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmselectCarSplite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmselectCarSplite.Designer.cs">
+      <DependentUpon>FrmselectCarSplite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmselectjobtrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmselectjobtrack.Designer.cs">
+      <DependentUpon>Frmselectjobtrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmselectOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmselectOption.Designer.cs">
+      <DependentUpon>FrmselectOption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmselectprinttruck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmselectprinttruck.Designer.cs">
+      <DependentUpon>Frmselectprinttruck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectComcanclejob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectComcanclejob.Designer.cs">
+      <DependentUpon>FrmSelectComcanclejob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSelectMoveJob.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSelectMoveJob.Designer.cs">
+      <DependentUpon>FrmSelectMoveJob.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmselectproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmselectproduct.Designer.cs">
+      <DependentUpon>Frmselectproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmserch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmserch.Designer.cs">
+      <DependentUpon>Frmserch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmStockadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmStockadd.Designer.cs">
+      <DependentUpon>FrmStockadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtime.Designer.cs">
+      <DependentUpon>Frmtime.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTransport.Designer.cs">
+      <DependentUpon>FrmTransport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtruckin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtruckin.Designer.cs">
+      <DependentUpon>Frmtruckin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtruckout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtruckout.Designer.cs">
+      <DependentUpon>Frmtruckout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmlogin.Designer.cs">
+      <DependentUpon>Frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTruckscale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTruckscale.Designer.cs">
+      <DependentUpon>FrmTruckscale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtypepay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtypepay.Designer.cs">
+      <DependentUpon>Frmtypepay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmemployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmemployee.Designer.cs">
+      <DependentUpon>Frmemployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmtypeproduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmtypeproduct.Designer.cs">
+      <DependentUpon>Frmtypeproduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmviewreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmviewreport.Designer.cs">
+      <DependentUpon>Frmviewreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWeigthbeforetruckin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWeigthbeforetruckin.Designer.cs">
+      <DependentUpon>FrmWeigthbeforetruckin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FromInsertdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FromInsertdate.Designer.cs">
+      <DependentUpon>FromInsertdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <EmbeddedResource Include="Crpphysicalsale.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpphysicalsale.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crpphysicalpur.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpphysicalpur.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurchaseordertran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurchaseordertran.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppursumweigth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppursumweigth.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpratedistance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpratedistance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurtosaletruckpass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurtosaletruckpass.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpAdpurchase.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpAdpurchase.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpproductstock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpproductstock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpratetruck.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpratetruck.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpratetruckemp.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpratetruckemp.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsale-chidcancle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsale-chidcancle.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsale-chidptos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsale-chidptos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsale-chidmain.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsale-chidmain.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppur-chidcancle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppur-chidcancle.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurchasedesignsuccess.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurchasedesignsuccess.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurchasedesign.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurchasedesign.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpbranchtruckoutbyweekGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpbranchtruckoutbyweekGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpbranchtruckoutbymontGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpbranchtruckoutbymontGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpbranchtruckoutbydayGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpbranchtruckoutbydayGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpbranchtruckinbydayGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpbranchtruckinbydayGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsale-chidbtos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsale-chidbtos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsalebydayGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsalebydayGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurbydayGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurbydayGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpbranchtruckinbyweekGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpbranchtruckinbyweekGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpbranchtruckinbymontGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpbranchtruckinbymontGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsalebymontGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsalebymontGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsalebyweekGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsalebyweekGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurbymontGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurbymontGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crpbranchgtruckinsortbyserail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpbranchgtruckinsortbyserail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crpbranchgtruckoutsortbyserail.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpbranchgtruckoutsortbyserail.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurchase.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurchase.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurtosaletrucknopass.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurtosaletrucknopass.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurbyweekGraph.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurbyweekGraph.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurtosalefilbycompur.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurtosalefilbycompur.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppurtosalefilbycomsale.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppurtosalefilbycomsale.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpsale.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpsale.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpstock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpstock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpstockday.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpstockday.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crpstocksumday.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crpstocksumday.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtruckouttocusbf.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtruckouttocusbf.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crpbranchtruckout.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpbranchtruckout.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crpbranchtruckin.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Crpbranchtruckin.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crvquatation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crvquatation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crprateoil.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crprateoil.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppur-chidptob.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppur-chidptob.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppur-chidptos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppur-chidptos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crppur-chidmain.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crppur-chidmain.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmconfirmpwd.resx">
+      <DependentUpon>Frmconfirmpwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAutokey.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAutokey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmchangdata.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmchangdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmchangpwd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmchangpwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmconfirmpwdchagedata.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmconfirmpwdchagedata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmcostsetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmcostsetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmcostTran.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmcostTran.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInformation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmmap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmmap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmmergorder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmmergorder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMstatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrderSelect.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmOrderSelect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmpayjob.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmpayjob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmpermisionapprovequa.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmpermisionapprovequa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmphysicalproduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmphysicalproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPurchasePay.resx">
+      <DependentUpon>FrmPurchasePay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPurpaysetting.resx">
+      <DependentUpon>FrmPurpaysetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmqickview.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmqickview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmrateoil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmrateoil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmrateoilsave.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmrateoilsave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmrateoilsetting.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmrateoilsetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmreportadvance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmreportadvance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportAll.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReportAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmapproveQua.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmapproveQua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmapproveHistorycus.resx">
+      <DependentUpon>FrmapproveHistorycus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtuckoutfilbybranch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtuckoutfilbybranch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtuckoutfilbycom.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtuckoutfilbycom.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtuckinfilbybrach.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtuckinfilbybrach.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtruckouttocusaf.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtruckouttocusaf.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtpurfilbycompur.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpurfilbycompur.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtpurtosalefilbybranch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpurtosalefilbybranch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtsale.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtsale.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtruckout.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtruckout.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crvpurcancle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crvpurcancle.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crvsalecancle.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crvsalecancle.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtpurfilbybranch.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpurfilbybranch.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtpurtosale.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpurtosale.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtpurtosalefilbycompur.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtpurtosalefilbycompur.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtuckinfilbycom.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtuckinfilbycom.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmcommand.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmcommand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmbuttonControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmbuttonControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmcar.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmcar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmchangdatacustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmchangdatacustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmchangdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmchangdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmchangprice.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmchangprice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmcompany.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmcompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmconnection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmconnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmdraftquatation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmdraftquatation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmhiscustomer.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmhiscustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInsertweigth.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmInsertweigth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmmain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmmain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmprinorsaveQuatation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmprinorsaveQuatation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmproduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPurchase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmquatation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmquatation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmreporttruck.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmreporttruck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmresetpwdbyemail.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmresetpwdbyemail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSaleOrder.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSaleOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmselectCarSplite.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmselectCarSplite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmselectjobtrack.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmselectjobtrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmselectOption.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmselectOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmselectprinttruck.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmselectprinttruck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectComcanclejob.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSelectComcanclejob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSelectMoveJob.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmSelectMoveJob.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmselectproduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmselectproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmserch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmserch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStockadd.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmStockadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtime.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmtime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTransport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTransport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtruckin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmtruckin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtruckout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmtruckout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmlogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTruckscale.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTruckscale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtypepay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmtypepay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmemployee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmemployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmtypeproduct.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmtypeproduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmviewreport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Frmviewreport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWeigthbeforetruckin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmWeigthbeforetruckin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FromInsertdate.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FromInsertdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crtruckin.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>crtruckin.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="crtruckin.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>crtruckin.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dtquatationsys.xsc">
+      <DependentUpon>dtquatationsys.xsd</DependentUpon>
+    </None>
+    <None Include="dtquatationsys.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtquatationsys.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dtquatationsys.xss">
+      <DependentUpon>dtquatationsys.xsd</DependentUpon>
+    </None>
+    <None Include="DTrat.xsc">
+      <DependentUpon>DTrat.xsd</DependentUpon>
+    </None>
+    <None Include="DTrat.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DTrat.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DTrat.xss">
+      <DependentUpon>DTrat.xsd</DependentUpon>
+    </None>
+    <None Include="dtssaleorder.xsc">
+      <DependentUpon>dtssaleorder.xsd</DependentUpon>
+    </None>
+    <None Include="dtssaleorder.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dtssaleorder.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dtssaleorder.xss">
+      <DependentUpon>dtssaleorder.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\lock.png" />
+    <None Include="Resources\Untitled-1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.2.0">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon.ico" />
+    <Content Include="obj\SaleOrder.csproj.FileList.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxFOXITREADEROCXLib">
+      <Guid>{3D20F47F-E818-4A03-AD52-45B708ACCF23}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="CRAXDDRT">
+      <Guid>{2B78E591-E7D0-49BF-8F16-CFD6324DB307}</Guid>
+      <VersionMajor>10</VersionMajor>
+      <VersionMinor>2</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="FOXITREADEROCXLib">
+      <Guid>{3D20F47F-E818-4A03-AD52-45B708ACCF23}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
