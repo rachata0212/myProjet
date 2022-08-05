@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7A767D4C-80E5-4347-85CE-DA9E8C8D687F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShareHD</RootNamespace>
+    <AssemblyName>ShareHD</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>ShareHD.Program</StartupObject>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspper.Barcode.Crystal, Version=2.0.0.0, Culture=neutral, PublicKeyToken=e04f4f54c82df309, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Aspper.Barcode.Crystal.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine">
+      <HintPath>d:\program files\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource">
+      <HintPath>d:\program files\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared">
+      <HintPath>d:\program files\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms">
+      <HintPath>d:\program files\sap businessobjects\crystal reports for .net framework 4.0\common\sap businessobjects enterprise xi 4.0\win32_x86\dotnet\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CpGNRegistor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CpTicketvote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CpTicketvote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrpSumRegister.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpSumRegister.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CpSUMMember.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CpSUMMember.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CpSUMRegistor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CpSUMRegistor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CPSUMVote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPSUMVote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CPGNVote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CPGNVote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CpGNMember.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CpGNMember.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CpLetterRegistor.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CpLetterRegistor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrpVotesubmeeting1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpVotesubmeeting.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrpVotesubmeetingmember.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrpVotesubmeetingmember.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_SearchDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_SearchDetail.Designer.cs">
+      <DependentUpon>Frm_SearchDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_rpvote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_rpvote.Designer.cs">
+      <DependentUpon>Frm_rpvote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frmmainreport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frmmainreport.Designer.cs">
+      <DependentUpon>Frmmainreport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_connectdb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_connectdb.designer.cs">
+      <DependentUpon>Frm_connectdb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_login.designer.cs">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_main.Designer.cs">
+      <DependentUpon>Frm_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_meetingterm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_meetingterm.designer.cs">
+      <DependentUpon>Frm_meetingterm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_memberholder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_memberholder.designer.cs">
+      <DependentUpon>Frm_memberholder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_registor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_registor.designer.cs">
+      <DependentUpon>Frm_registor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_savevote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_savevote.designer.cs">
+      <DependentUpon>Frm_savevote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_sumregistor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_sumregistor.Designer.cs">
+      <DependentUpon>Frm_sumregistor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frmgrideviewmeeting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frmgrideviewmeeting.Designer.cs">
+      <DependentUpon>Frmgrideviewmeeting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_checkpwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_checkpwd.Designer.cs">
+      <DependentUpon>Frm_checkpwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frmoption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frmoption.Designer.cs">
+      <DependentUpon>Frmoption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frmsearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frmsearch.Designer.cs">
+      <DependentUpon>Frmsearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_dashboard.Designer.cs">
+      <DependentUpon>Frm_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Frm_command.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Frm_command.Designer.cs">
+      <DependentUpon>Frm_command.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CpGNRegistor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpTicketvote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CpTicketvote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrpSumRegister.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpSumRegister.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpSUMMember.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CpSUMMember.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpSUMRegistor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CpSUMRegistor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPSUMVote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CPSUMVote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CPGNVote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CPGNVote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpGNMember.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CpGNMember.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CpLetterRegistor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CpLetterRegistor.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrpVotesubmeeting.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpVotesubmeeting1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrpVotesubmeetingmember.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrpVotesubmeetingmember.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frmsearch.resx">
+      <DependentUpon>Frmsearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_dashboard.resx">
+      <DependentUpon>Frm_dashboard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_SearchDetail.resx">
+      <DependentUpon>Frm_SearchDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_rpvote.resx">
+      <DependentUpon>Frm_rpvote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frmmainreport.resx">
+      <DependentUpon>Frmmainreport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_connectdb.resx">
+      <DependentUpon>Frm_connectdb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_login.resx">
+      <DependentUpon>Frm_login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_main.resx">
+      <DependentUpon>Frm_main.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_meetingterm.resx">
+      <DependentUpon>Frm_meetingterm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_memberholder.resx">
+      <DependentUpon>Frm_memberholder.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_registor.resx">
+      <DependentUpon>Frm_registor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_savevote.resx">
+      <DependentUpon>Frm_savevote.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_sumregistor.resx">
+      <DependentUpon>Frm_sumregistor.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frmgrideviewmeeting.resx">
+      <DependentUpon>Frmgrideviewmeeting.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_checkpwd.resx">
+      <DependentUpon>Frm_checkpwd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frmoption.resx">
+      <DependentUpon>Frmoption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Frm_command.resx">
+      <DependentUpon>Frm_command.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
